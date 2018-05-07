@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Tp_Conversion {
 
 	public static void main(String[] args) {
+		// Déclaration des variables
 		double resC = 0.0d, resF = 0.0d, conversionC = 0.0d, conversionF = 0.0d;
 		int choix;
 		double arrondC, arrondF;
@@ -39,7 +40,7 @@ public class Tp_Conversion {
 		}
 		System.out.println("Au revoir...!");
 	}
-
+	//méthode pour arrondir les resultats des conversions.
 	public static double arrondi(double A, int B) {
 		return (double) ((int) (A * Math.pow(10, B) + .5)) / Math.pow(10, B);
 	}
