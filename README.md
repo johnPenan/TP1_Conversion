@@ -1,2 +1,2 @@
 # TP1_Conversion
-Appication de conversion Celsius - Farenheit
+Cette appication permet de faire les conversions vice-versa Celsius - Farenheit.
